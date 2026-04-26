@@ -18,7 +18,7 @@ func main() {
 		Token:       os.Getenv("TELEGRAM_BOT_TOKEN"),
 		WebsiteURL:  envOr("DEEPCHARTS_URL", "https://www.deepcharts.com/"),
 		PricingURL:  envOr("DEEPCHARTS_PRICING_URL", "https://www.deepcharts.com/pricing"),
-		YouTubeURL:  envOr("DEEPCHARTS_YOUTUBE_URL", "https://www.youtube.com/@deepcharts"),
+		YouTubeURL:  envOr("DEEPCHARTS_YOUTUBE_URL", "https://www.youtube.com/@deepcharts-official"),
 		AdminChatID: envInt64("ADMIN_CHAT_ID"),
 	}
 	if cfg.Token == "" {

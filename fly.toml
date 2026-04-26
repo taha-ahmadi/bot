@@ -7,7 +7,7 @@ primary_region = "fra"
 [env]
   DEEPCHARTS_URL         = "https://www.deepcharts.com/"
   DEEPCHARTS_PRICING_URL = "https://www.deepcharts.com/pricing"
-  DEEPCHARTS_YOUTUBE_URL = "https://www.youtube.com/@deepcharts"
+  DEEPCHARTS_YOUTUBE_URL = "https://www.youtube.com/@deepcharts-official"
   TICKETS_FILE           = "/data/tickets.json"
 
 [[mounts]]
