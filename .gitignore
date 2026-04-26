@@ -1,0 +1,5 @@
+.env
+data/
+*.exe
+deep-bot
+deep-bot-*

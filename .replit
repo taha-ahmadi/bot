@@ -1,0 +1,9 @@
+modules = ["go-1.21"]
+run = "go run ."
+entrypoint = "main.go"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+GOFLAGS = "-mod=mod"
